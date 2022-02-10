@@ -23,14 +23,15 @@ function importAll(r) {
                 className="mb-3 font-size--20 font-w--100"
                 style={{ color: "white", fontWeight: "light" }}
               >
-                The Binance Smart Chain is a great tool for investors to get
-                lower transaction fees and faster speeds. However, constant rugs
-                and exit scams are currently hurting the progress of DeFi on
-                Binance Smart Chain. ZEROLOSS was created with a clear focus
-                centered on solving these problems and bring a sense of
-                security, to Binance Smart Chain. We're building a platform that
-                will ensure the safety of all funds, for both investors and
-                projects.
+                The Binance Smart Chain as a scaling solution to ethereum is a
+                great tool for crypto users and investors to get lower
+                transaction fees and faster speeds. However, the incessant exit
+                scams and rug pools are currently deterring the progressive
+                growth of DeFi on Binance Smart Chain. ZEROLOSS was created with
+                a clear focus centered on solving these problems and bring a
+                sense of security, to Binance Smart Chain with ZEROLOSS rug
+                checker. We're building a platform that will ensure the safety
+                of all user funds, for both projects and investors.
               </h2>
 
               <p

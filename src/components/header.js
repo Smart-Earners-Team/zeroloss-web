@@ -68,7 +68,7 @@ function Header() {
                 </span>
               </h1>
               <p className="hero__description font-size--20 mb-3 mb-lg-5 pr-xl-10">
-                DeFi 3.0 utility dApp and LAUNCHPAD POWERED BY ZEROLOSS
+                DeFi 3.0 dApp and LAUNCHPAD POWERED BY ZEROLOSS
               </p>
               <div>
                 <p
@@ -78,8 +78,8 @@ function Header() {
                     fontZize: "20px",
                   }}
                 >
-                  Zeroloss is the utility, $ZLT is the currency with hybrid
-                  Auto-yield algorithm to Hold and Grow your crypto portfolio
+                  Zeroloss is the utility, $ZLT is the currency with PMMe
+                  algorithm to Grow your crypto portfolio
                 </p>
               </div>
               <br />
@@ -101,10 +101,11 @@ function Header() {
                 <span className="h2-font">
                   <i className="icon icon-handshake"></i>
                 </span>
-                <p className="h4-font">FAIR AND RUG-PROOF</p>
+                <p className="h4-font">RUG-PROOF AND EQUITABLE</p>
                 <p className="h8-font">
-                  KYC checks for projects launching on ZEROLOSS will give them
-                  the “low risk” badge and give investors the confidence.
+                  Projects launching on ZEROLOSSPAD will have KYC checks to give
+                  investors the confidence and give the projects “low risk”
+                  badge.
                 </p>
               </div>
 
@@ -114,9 +115,8 @@ function Header() {
                 </span>
                 <p className="h4-font">LOCKED LIQUIDITY</p>
                 <p className="h8-font">
-                  Blue chip projects will be required to lock a percentage of
-                  their liquidity with a trusted third party for a period of
-                  time.
+                  IZO projects will lock more than 60% of their liquidity with a
+                  verified trusted third party for a time period.
                 </p>
               </div>
 
@@ -126,9 +126,9 @@ function Header() {
                 </span>
                 <p className="h4-font">INTEROPERABLE</p>
                 <p className="h8-font">
-                  Get early-access to private and pre-sales for safe
-                  high-quality projects on Binance Smart Chain, without the need
-                  for large sums of capital.
+                  Get very early-access to private and public pre-sales of safe
+                  high-end and quality projects on Binance Smart Chain, with a
+                  reasonable sum of capital.
                 </p>
               </div>
 
@@ -136,11 +136,11 @@ function Header() {
                 <span className="h2-font">
                   <i className="icon icon-money-bag"></i>
                 </span>
-                <p className="h4-font">IDO LAUNCHPAD</p>
+                <p className="h4-font">ZEROLOSSPAD</p>
                 <p className="h8-font">
-                  ZLT token HOLDERS get access to IDO pools and the opportunity
-                  to get into new projects fairly without bots or whales eating
-                  the allocation.
+                  ZLT token HOLDERS comes first and have access to IZO pools and
+                  the opportunity to get into new projects equitably without
+                  whales and bots eating up the allocation.
                 </p>
               </div>
             </div>
@@ -148,22 +148,24 @@ function Header() {
 
           <div
             className="col-12 col-lg-6 mt-6 mt-lg-0 mb-2 mb-lg-0 pl-lg-4 pos-abs-lg-vertical-center pos-right
-           hero__image ">
-              <Animatedcontainer
-                onMouseMove={({ clientX: x, clientY: y }) =>
-                  set({ xys: calc(x, y) })
-                }
-                onMouseLeave={() => set({ xys: [0, 0, 1] })}
-                style={{
-                  transform: props.xys.interpolate(trans),
-                }}>
-            <img
-              src="images/zeroloss-dev1.png"
-              alt="media-thumb"
-              className="img-fluid d-flex card-hover--shadow-3d"
-            /></Animatedcontainer>
+           hero__image "
+          >
+            <Animatedcontainer
+              onMouseMove={({ clientX: x, clientY: y }) =>
+                set({ xys: calc(x, y) })
+              }
+              onMouseLeave={() => set({ xys: [0, 0, 1] })}
+              style={{
+                transform: props.xys.interpolate(trans),
+              }}
+            >
+              <img
+                src="images/zeroloss-dev1.png"
+                alt="media-thumb"
+                className="img-fluid d-flex card-hover--shadow-3d"
+              />
+            </Animatedcontainer>
           </div>
-         
         </div>
       </div>
     </section>
