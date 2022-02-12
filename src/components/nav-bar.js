@@ -17,6 +17,8 @@ function NavBar(props) {
 
 
   return (
+    <header className="navbar navbar-sticky navbar-expand-lg navbar-dark" style={{backgroundColor: "black"}}>
+    <div className="container ">
     <nav
       className="navbar navbar-expand-lg navbar-mainbg"
       style={{ backgroundColor: "black", position:"fixed" }}
@@ -133,6 +135,9 @@ function NavBar(props) {
         </ul>
       </div>
     </nav>
+    </div>
+    </header>
+    
     
   );
 }
