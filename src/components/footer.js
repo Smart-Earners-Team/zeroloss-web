@@ -10,7 +10,7 @@ function Footer(props) {
           <div className="row">
             <div className="col-12 mb-2">
               <span className="mb-2">
-                <img src="images/Zeroloss-footer.png" alt="brand-logo" />
+                <img src="img/Zerolossrtagolds.png" alt="brand-logo" />
               </span>
               <div className="widget widget-nav">
                 <ul>
