@@ -92,7 +92,10 @@ function Roadmap(props) {
                         <div className="slide">
                           <div className="d-md-flex p-3 py-lg-5 pl-lg-4 pr-lg-10">
                             <span className="testimonial__quote color--primary mr-3">
-                              <i className="icon icon-quote"></i>
+                              <i
+                                class="fa fa-quote-right"
+                                style={{ color: "black" }}
+                              ></i>
                             </span>
                             <div>
                               <blockquote className="blockquote mb-3">
@@ -191,14 +194,16 @@ function Roadmap(props) {
 
                         <div className="col-12 col-md-10 col-lg-2 mx-md-auto text-right">
                           <a
-                            href="https://zeroloss.fund/"
+                            // href="https://zeroloss.fund/"
+                            href="/"
                             target="_blank"
                             className="btn btn-hover--splash"
                             type="submit"
                             style={{ backgroundColor: "gold" }}
                           >
                             <span className="btn__text">
-                              GO! <i className="icon icon-arrow-right"></i>
+                              GO! <i class="icon fa-arrowight"></i>
+                              <i className="fa fa-arrow-right"></i>
                             </span>
                           </a>
                         </div>

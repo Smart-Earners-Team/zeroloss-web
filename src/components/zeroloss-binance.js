@@ -172,8 +172,8 @@ function importAll(r) {
                 }}
               >
                 <span className="btn__text d-flex justify-content-between">
-                  How add to wallet? 
-                  <i className="fas fa-arrow-right"></i>
+                  How add to wallet? GO! <i class="icon fa-arrowight"></i>
+                  <i class="fas fa-arrow-right"></i>
                   {/* <i className="icon icon-arrow-right font-size--20"></i> */}
                 </span>
               </button>
