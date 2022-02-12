@@ -1,5 +1,7 @@
-import React from 'react';
-import NavBar from '../components/nav-bar';
+import React from "react";
+import NavBar from "../components/nav-bar";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+
 
 const Idolaunchpad = () => {
   return (
@@ -11,10 +13,8 @@ const Idolaunchpad = () => {
         data-animation="true"
         data-appearance="light"
       >
-       
-
         <main className="main">
-         <NavBar />
+          <NavBar />
           <br />
           <br />
           <br />
@@ -25,7 +25,7 @@ const Idolaunchpad = () => {
             <div className="container">
               <div className="row flex-column-reverse flex-lg-row-reverse align-items-center text-center">
                 <div className="col-12 col-md-10 col-lg-6 text-lg-left reveal">
-                  <h2 className="mb-3">IDO LaunchPad</h2>
+                  <h2 className="mb-3">ZerolossPad</h2>
                   <p className="mb-5 opacity--100">
                     Use <span className="color--yellow">Zeroloss</span> Token
                     ZLT, to buy in early in IDO projects.
@@ -187,25 +187,28 @@ const Idolaunchpad = () => {
             </div>
           </form>
 
-          <section className="bg-color--primary space--top">
+          <section className=" space--top" style={{ backgroundColor: "black" }}>
             <footer className="section--dark footer footer--v1 position-relative">
               <div className="container text-center">
                 <div className="row">
                   <div className="col-12 mb-2">
                     <span className="mb-2">
-                      <img src="images/Zerolossrtagolds.png" alt="brand-logo" />
+                      <img src="images/Zeroloss-footer.png" alt="brand-logo" />
                     </span>
                     <div className="widget widget-nav">
                       <ul>
                         <li className="nav-item " />
                         <li>
-                          <a href="defi.html">Launch App</a>
+                          <a to="/defi">Launch App</a>
                         </li>
                         <li>
-                          <a href="faq.html">FAQ</a>
+                          <a to="/faq">FAQ</a>
                         </li>
                         <li>
-                          <a href="https://" className="color--yellow">
+                          <a
+                            href="https://exchange.pancakeswap.finance/#/swap?outputCurrency=0xc1ed8d529f5fe85837349f7dd57715a3904a5f21"
+                            className="color--yellow"
+                          >
                             Buy
                           </a>
                         </li>
@@ -224,7 +227,7 @@ const Idolaunchpad = () => {
                             target="_blank"
                             className="color--white"
                           >
-                            <i className="fab fa-telegram-plane"></i>
+                            <FontAwesomeIcon icon={["fab", "telegram"]} />
                           </a>
                         </li>
                         <li className="p-2">
@@ -233,7 +236,7 @@ const Idolaunchpad = () => {
                             target="_blank"
                             className="color--white"
                           >
-                            <i className="fab fa-twitter"></i>
+                            <FontAwesomeIcon icon={["fab", "twitter"]} />
                           </a>
                         </li>
                         <li className="p-2">
@@ -242,7 +245,16 @@ const Idolaunchpad = () => {
                             target="_blank"
                             className="color--white"
                           >
-                            <i className="fab fa-reddit"></i>
+                            <FontAwesomeIcon icon={["fab", "reddit"]} />
+                          </a>
+                        </li>
+                        <li className="p-2">
+                          <a
+                            href="https://discord.gg/brUDkCb72M"
+                            target="_blank"
+                            className="color--white"
+                          >
+                            <FontAwesomeIcon icon={["fab", "discord"]} />
                           </a>
                         </li>
                       </ul>
@@ -254,24 +266,26 @@ const Idolaunchpad = () => {
                   <div className="col-12">
                     <div className="footer-bottom pt-5 pb-3 d-lg-flex justify-content-between">
                       <p className="mb-1">
-                        Made with ❤️ for the ZERO Community
+                        Made with ❤️ for the ZEROLOSS Community
                       </p>
                       <p className="mb-1">
                         For all marketing and advertising, please contact our
-                        Marketing team
+                        Marketing team:
                         <a
                           className="mb-2 mb-lg-1"
                           href="mailto:info@zeroloss.org"
                         >
+                          {" "}
                           marketing@zeroloss.org
                         </a>
                       </p>
                       <p className="mb-1">
-                        For general inquiries, please contact
+                        For general inquiries, please contact:
                         <a
                           className="mb-2 mb-lg-1"
                           href="mailto:info@zeroloss.org"
                         >
+                          {" "}
                           info@zeroloss.org
                         </a>
                       </p>

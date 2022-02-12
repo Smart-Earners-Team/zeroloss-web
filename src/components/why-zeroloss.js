@@ -75,7 +75,7 @@ function WhyChooseUs() {
                   <img
                     src="images/Zeroloss_inside.png"
                     alt="hero-image"
-                    // className="img-fluid reveal d-flex align-items-center card-hover--shadow-3d"
+                    className="img-fluid reveal d-flex align-items-center "
                   />
                 </Animatedcontainer>
               </div>

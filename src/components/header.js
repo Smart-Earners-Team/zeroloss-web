@@ -2,6 +2,8 @@ import React from "react";
 import Typewriter from "typewriter-effect";
 import { useSpring } from "react-spring";
 import { Animatedcontainer, calc, trans } from "./animated-countainer";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+
 
 
 const header = {
@@ -99,7 +101,7 @@ function Header() {
             >
               <div className="single-item m-1 m-sm-4">
                 <span className="h2-font">
-                  <i className="icon icon-handshake"></i>
+                  <i class="fas fa-handshake"></i>
                 </span>
                 <p className="h4-font">RUG-PROOF AND EQUITABLE</p>
                 <p className="h8-font">
@@ -111,7 +113,7 @@ function Header() {
 
               <div className="single-item m-1 m-sm-4">
                 <span className="h2-font">
-                  <i className="icon icon-security"></i>
+                  <i className="fas fa-shield-alt"></i>
                 </span>
                 <p className="h4-font">LOCKED LIQUIDITY</p>
                 <p className="h8-font">
@@ -122,7 +124,7 @@ function Header() {
 
               <div className="single-item m-1 m-sm-4">
                 <span className="h2-font">
-                  <i className="icon icon-key"></i>
+                  <i className="fas fa-key"></i>
                 </span>
                 <p className="h4-font">INTEROPERABLE</p>
                 <p className="h8-font">
@@ -134,7 +136,7 @@ function Header() {
 
               <div className="single-item m-1 m-sm-4">
                 <span className="h2-font">
-                  <i className="icon icon-money-bag"></i>
+                  <i className="fas fa-money-check"></i>
                 </span>
                 <p className="h4-font">ZEROLOSSPAD</p>
                 <p className="h8-font">

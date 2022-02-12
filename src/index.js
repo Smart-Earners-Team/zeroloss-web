@@ -4,6 +4,9 @@ import { BrowserRouter } from "react-router-dom";
 import "./assets/styles/app.css";
 import "./assets/styles/custom.css";
 import "./assets/styles/plugins.min.css";
+import ContentLayout from './components/content-layout';
+
+
 
 
 import App from './App';

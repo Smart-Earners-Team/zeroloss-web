@@ -9,17 +9,21 @@ import ZerolossBinance from '../components/zeroloss-binance';
 
 function Home() {
 
-  return <>
-  <main className="main">
-      <NavBar />
-      <Header />
-      <WhyChooseUs />
-      <ZerolossBinance />
-      <Roadmap />
-      <Footer />
-
-    </main>
+  return (
+    <>
+    
+      <main className="main">
+       
+        <NavBar />
+        <Header />
+        <WhyChooseUs />
+        <ZerolossBinance />
+        <Roadmap />
+        <Footer />
+        
+      </main>
     </>
+  );
   }
 
 export default Home;

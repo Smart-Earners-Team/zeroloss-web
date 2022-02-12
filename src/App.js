@@ -1,12 +1,11 @@
 import React, { lazy, Suspense, useEffect, useState } from "react";
 // import React, { lazy, Suspense } from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-import NavBar from "./components/nav-bar";
-import { Link } from "react-router-dom";
 import initFontAwesome from "./components/fontAwesome";
 
 import styled, { ThemeProvider } from "styled-components";
-import { lightTheme, darkTheme, GlobalStyles } from "./components/themes";
+// import { lightTheme, darkTheme, GlobalStyles } from "./components/themes";
+
 
 const Home = lazy(() => import("./pages/home"));
 const Defi = lazy(() => import("./pages/defi"));
@@ -26,33 +25,17 @@ function App() {
   };
   return (
     <>
-      <ThemeProvider theme={theme === "light" ? lightTheme : darkTheme}>
-        <GlobalStyles />
+    
         <StyledApp>
-          <main className="main">
-            <Suspense
-              fallback={
-                <div className="preloader">
-                  <div className="wrapper">
-                    <div className="blobs">
-                      <div className="blob-center"></div>
-                      <div className="blob"></div>
-                      <div className="blob"></div>
-                      <div className="blob"></div>
-                      <div className="blob"></div>
-                      <div className="blob"></div>
-                      <div className="blob"></div>
-                    </div>
-                    <div>
-                      <div className="loader-canvas canvas-left"></div>
-                      <div className="loader-canvas canvas-right"></div>
-                    </div>
-                  </div>
-                </div>
-              }
-            >
+          <Suspense
+            fallback={
+               <div className="loader-wrapper">
+      <div className="loader"></div>
+      </div>}
+          >
+            <main className="main">
               <Router>
-                <NavBar />
+                {/* <NavBar /> */}
 
                 <Routes>
                   <Route path="/" element={<Home />} />
@@ -63,16 +46,10 @@ function App() {
                   <Route path="/buy" element={<Idolaunchpad />} />
                 </Routes>
               </Router>
-            </Suspense>
-            {/* <button
-              className="btn btn-size--sm btn-hover--splash"
-              style={{ backgroundColor: "gold",  marginRight : 0, marginTop : 0 }}
-              onClick={() => themeToggler()}
-            >Change theme
-            </button> */}
-          </main>
+            </main>
+          </Suspense>
+         
         </StyledApp>
-      </ThemeProvider>
     </>
   );
 }

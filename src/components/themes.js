@@ -11,8 +11,8 @@ export const darkTheme = {
   fontColor: "#fff",
 };
 
-export const GlobalStyles = createGlobalStyle`
-	body {
-		background-color: ${(props) => props.theme.body};
-	}
-`;
+// export const GlobalStyles = createGlobalStyle`
+// 	body {
+// 		background-color: ${(props) => props.theme.body};
+// 	}
+// `;

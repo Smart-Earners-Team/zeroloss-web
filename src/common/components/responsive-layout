@@ -1,0 +1,16 @@
+import { useMediaQuery } from 'react-responsive';
+
+/**
+ * Takes a mobile and deskop component of a view and displays the
+ * correct one depending on viewport size
+ *
+ * @param {*} { mobileComponent, desktopComponent }
+ * @return {*}
+ */
+const ResponsiveLayout = ({ mobileComponent, desktopComponent }: any) => {
+  const isDesktop = useMediaQuery({ query: '(min-width: 992px)' });
+
+  return isDesktop ? desktopComponent : mobileComponent;
+};
+
+export default ResponsiveLayout;

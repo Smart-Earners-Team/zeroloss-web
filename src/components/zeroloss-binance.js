@@ -185,7 +185,7 @@ function importAll(r) {
           <img
             src={"images/layout/oval.png"}
             alt="wave"
-            className="background-image-holder"
+            className="background-image-holder svg w-100"
           />
         </div>
 
