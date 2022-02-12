@@ -33,7 +33,12 @@ function App() {
       <div className="loader"></div>
       </div>}
           >
-            <main className="main">
+            <main className="main" style={{
+    width: "100%",
+    height: "100%",
+    overflow: "hidden",
+    position: "relative"
+}}>
               <Router>
                 {/* <NavBar /> */}
 

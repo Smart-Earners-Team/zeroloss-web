@@ -20,7 +20,7 @@ function NavBar(props) {
       <button onClick={() => themeToggler()}>Change Theme</button>
       <header
         className="navbar navbar-sticky navbar-expand-lg navbar-dark"
-        style={{ backgroundColor: "black", position: "fixed" }}
+        style={{ backgroundColor: "black", position: "fixed"}}
       >
         <div className="container position-relative">
           <Link className="navbar-brand" to="/">
@@ -100,7 +100,7 @@ function NavBar(props) {
                 <li className="nav-item ">
                   <a
                     className="nav-link"
-                    href="https://front.herokuapp.com/rugchecker"
+                    href="https://zeroloss-front.herokuapp.com/rugchecker"
                     style={{ color: "white" }}
                   >
                     Rug Checker
