@@ -19,7 +19,7 @@ function NavBar(props) {
   return (
     <nav
       className="navbar navbar-expand-lg navbar-mainbg"
-      style={{ backgroundColor: "black", position:"fixed" }}
+      style={{ backgroundColor: "black", position:"fixed", height: "auto" }}
     >
       <a className="navbar-brand navbar-logo" href="/">
         <img
@@ -123,7 +123,6 @@ function NavBar(props) {
           </Link>
           <Link
             to="/defi"
-            target="_blank"
             className="btn btn-size--sm btn-hover--splash mr-5"
             style={{ backgroundColor: "gold" }}
           >
