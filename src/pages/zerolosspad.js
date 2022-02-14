@@ -1,6 +1,8 @@
 import React from "react";
 import NavBar from "../components/nav-bar";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { Link } from "react-router-dom";
+
 
 
 const Idolaunchpad = () => {
@@ -37,18 +39,19 @@ const Idolaunchpad = () => {
                     investors from ‘rug pulls’.
                     <br /> Hold 49,000 ZLT to get whitelisted for IZO's
                   </p>
-                  <a
+                  <Link
                     data-fancybox="preorder"
                     data-src="#preorder"
-                    href="javascript:;"
-                    className="btn btn-bg--cta--yellow btn-hover--3d"
+                    to="/defi"
+                    className="btn btn-size--sm btn-border btn-hover--splash"
+                    style={{ color: "gold" }}
                   >
                     <span className="btn__text">
                       {" "}
                       <i className="fa fa-shopping-basket pr-1"></i> buy ZLT for
                       IZO
                     </span>
-                  </a>
+                  </Link>
                 </div>
 
                 <div className="col-12 col-lg-6 mb-3 mb-lg-0">

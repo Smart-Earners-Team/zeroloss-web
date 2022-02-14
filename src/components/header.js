@@ -87,7 +87,7 @@ function Header() {
               <br />
               <br />
               <Link
-                to="/zerolosspad"
+                to="/defi"
                 className="btn btn-size--sm btn-border btn-hover--splash"
                 style={{ color: "gold" }}
               >
