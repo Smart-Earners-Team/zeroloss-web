@@ -2,7 +2,7 @@ import React from "react";
 import Typewriter from "typewriter-effect";
 import { useSpring } from "react-spring";
 import { Animatedcontainer, calc, trans } from "./animated-countainer";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { Link } from "react-router-dom";
 
 
 
@@ -86,13 +86,13 @@ function Header() {
               </div>
               <br />
               <br />
-              <a
-                href="https://"
+              <Link
+                to="/zerolosspad"
                 className="btn btn-size--sm btn-border btn-hover--splash"
                 style={{ color: "gold" }}
               >
                 <span className="btn__text font-w--700">Buy ZLT</span>
-              </a>
+              </Link>
             </div>
 
             <div

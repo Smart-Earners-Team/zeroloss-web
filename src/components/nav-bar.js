@@ -90,7 +90,7 @@ function NavBar(props) {
                 <li className="nav-item ">
                   <Link
                     className="nav-link"
-                    to="/idolaunchpad"
+                    to="/zerolosspad"
                     style={{ color: "white" }}
                   >
                     ZerolossPad

@@ -9,7 +9,7 @@ import styled, { ThemeProvider } from "styled-components";
 
 const Home = lazy(() => import("./pages/home"));
 const Defi = lazy(() => import("./pages/defi"));
-const Idolaunchpad = lazy(() => import("./pages/idolaunchpad"));
+const Idolaunchpad = lazy(() => import("./pages/zerolosspad"));
 const Rugchecker = lazy(() => import("./pages/rugchecker"));
 const Faq = lazy(() => import("./pages/faq"));
 const StyledApp = styled.div`
@@ -45,7 +45,7 @@ function App() {
                 <Routes>
                   <Route path="/" element={<Home />} />
                   <Route path="/defi" element={<Defi />} />
-                  <Route path="/idolaunchpad" element={<Idolaunchpad />} />
+                  <Route path="/zerolosspad" element={<Idolaunchpad />} />
                   {/* <Route path="/rugchecker" element={<Rugchecker />} /> */}
                   <Route path="/faq" element={<Faq />}></Route>
                   <Route path="/buy" element={<Idolaunchpad />} />

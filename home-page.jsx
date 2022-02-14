@@ -59,7 +59,7 @@ function Homepage(props) {
                     </li>
                     
                     <li className="nav-item ">
-                        <a className="nav-link" href="idolaunchpad.html" style="color: white;">IDO Launchpad</a>
+                        <a className="nav-link" href="zerolosspad.html" style="color: white;">IDO Launchpad</a>
                     </li>
                     
                     <li className="nav-item ">

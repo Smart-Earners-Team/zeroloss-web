@@ -28,14 +28,14 @@ const Idolaunchpad = () => {
                   <h2 className="mb-3">ZerolossPad</h2>
                   <p className="mb-5 opacity--100">
                     Use <span className="color--yellow">Zeroloss</span> Token
-                    ZLT, to buy in early in IDO projects.
+                    ZLT, to buy in early in IZO projects.
                     <br />
-                    ZEROLOSS IDO will require new projects to lock a large share
+                    ZEROLOSS IZO will require new projects to lock a large share
                     of their liquidity and team tokens on our third party
                     partner’s locker platform. We make it easy, safe and secure
                     to lock any BEP-20 based token in seconds protecting
                     investors from ‘rug pulls’.
-                    <br /> Hold 2000 ZLT to get whitelisted for IDO's
+                    <br /> Hold 49,000 ZLT to get whitelisted for IZO's
                   </p>
                   <a
                     data-fancybox="preorder"
@@ -46,7 +46,7 @@ const Idolaunchpad = () => {
                     <span className="btn__text">
                       {" "}
                       <i className="fa fa-shopping-basket pr-1"></i> buy ZLT for
-                      IDO
+                      IZO
                     </span>
                   </a>
                 </div>
@@ -73,11 +73,11 @@ const Idolaunchpad = () => {
                   </h2>
 
                   <p className="mb-1 pb-2 px-lg-6">
-                    Zero risk IDO enables promising projects to raise capital on
+                    Zero risk IZO enables promising projects to raise capital on
                     the BSC. Investors are safe to invest in early-stage
                     projects through our KYC system and strict due diligence. We
                     make sure only audited, carefully vetted, and analyzed
-                    blockchain projects will be chosen for IDO.
+                    blockchain projects will be chosen for IZO.
                   </p>
                 </div>
               </div>
