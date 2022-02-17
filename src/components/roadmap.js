@@ -232,7 +232,7 @@ function Roadmap(props) {
                     we continue to grow globally
                   </a>
                   <a
-                    href="https://twitter.com/ZerolossToken"
+                    href="https://twitter.com/Zeroloss_defi"
                     className="btn btn-size--md btn--transparent"
                     style={{ color: "gold" }}
                   >
@@ -256,7 +256,7 @@ function Roadmap(props) {
                     with DeFi and web3.0
                   </a>
                   <a
-                    href="https://twitter.com/ZerolossToken"
+                    href="https://twitter.com/Zeroloss_defi"
                     className="btn btn-size--md btn--transparent "
                     style={{ color: "gold" }}
                   >
