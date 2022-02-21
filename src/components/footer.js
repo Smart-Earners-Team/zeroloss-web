@@ -16,14 +16,15 @@ function Footer(props) {
                 <ul>
                   <li className="nav-item " />
                   <li>
-                    <a to="/defi">Launch App</a>
+                    <a href="https://app.zeroloss.org"
+                      className="color--yellow">Launch App</a>
                   </li>
                   <li>
                     <a to="/faq">FAQ</a>
                   </li>
                   <li>
                     <a
-                      href="https://exchange.pancakeswap.finance/#/swap?outputCurrency=0xc1ed8d529f5fe85837349f7dd57715a3904a5f21"
+                      href="https://app.zeroloss.org"
                       className="color--yellow"
                     >
                       Buy
