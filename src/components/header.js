@@ -86,13 +86,13 @@ function Header() {
               </div>
               <br />
               <br />
-              <Link
-                to="/defi"
+              <a
+                href="https://app.zeroloss.org"
                 className="btn btn-size--sm btn-border btn-hover--splash"
                 style={{ color: "gold" }}
               >
                 <span className="btn__text font-w--700">Buy ZLT</span>
-              </Link>
+              </a>
             </div>
 
             <div

@@ -223,7 +223,7 @@ function Roadmap(props) {
               <div className="card card--double card-hover--shadow">
                 <div className="card-body px-3 py-4">
                   <a
-                    href="https://twitter.com/ZerolossToken"
+                    href="https://twitter.com/Zeroloss_defi"
                     className="text-color--700 text-hover--transparent font-w--500 h5-font mb-2"
                   >
                     {" "}
@@ -232,7 +232,7 @@ function Roadmap(props) {
                     we continue to grow globally
                   </a>
                   <a
-                    href="https://twitter.com/ZerolossToken"
+                    href="https://twitter.com/Zeroloss_defi"
                     className="btn btn-size--md btn--transparent"
                     style={{ color: "gold" }}
                   >
@@ -256,7 +256,7 @@ function Roadmap(props) {
                     with DeFi and web3.0
                   </a>
                   <a
-                    href="https://twitter.com/ZerolossToken"
+                    href="https://twitter.com/Zeroloss_defi"
                     className="btn btn-size--md btn--transparent "
                     style={{ color: "gold" }}
                   >

@@ -265,7 +265,7 @@ function importAll(r) {
                       and more exchanges
                     </p>
                     <button
-                      href="https://exchange.pancakeswap.finance/#/swap?outputCurrency="
+                      href="https://app.zeroloss.org"
                       className="btn btn-size--sm btn-border btn-hover--splash color--green"
                     >
                       <span className="btn__text font-w--700">Buy ZLT</span>

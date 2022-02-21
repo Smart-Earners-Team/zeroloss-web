@@ -20,7 +20,7 @@ function NavBar(props) {
       <button onClick={() => themeToggler()}>Change Theme</button>
       <header
         className="navbar navbar-sticky navbar-expand-lg navbar-dark"
-        style={{ backgroundColor: "black", position: "fixed"}}
+        style={{ backgroundColor: "black", position: "fixed" }}
       >
         <div className="container position-relative">
           <Link className="navbar-brand" to="/">
@@ -78,13 +78,13 @@ function NavBar(props) {
                 </li>
 
                 <li className="nav-item ">
-                  <Link
+                  <a
                     className="nav-link"
-                    to="/defi"
+                    href="https://app.zeroloss.org"
                     style={{ color: "white" }}
                   >
                     Launch App
-                  </Link>
+                  </a>
                 </li>
 
                 <li className="nav-item ">
@@ -130,20 +130,20 @@ function NavBar(props) {
             </nav>
           </div>
           <div className="mr-5 mr-lg-0 ml-lg-2">
-            <Link
-              to="/defi"
+            <a
+              href="https://app.zeroloss.org"
               className="btn btn-size--sm btn-border btn-hover--danger color--white"
             >
               <span className="btn__text font-w--500">Buy</span>
-            </Link>
-            <Link
-              to="/defi"
+            </a>
+            <a
+              href="https://app.zeroloss.org"
               target="_blank"
               className="btn btn-size--sm btn-hover--splash"
               style={{ backgroundColor: "gold" }}
             >
               <span className="btn__text">DeFi</span>
-            </Link>
+            </a>
           </div>
         </div>
       </header>
