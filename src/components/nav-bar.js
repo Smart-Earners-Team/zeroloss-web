@@ -78,13 +78,13 @@ function NavBar(props) {
                 </li>
 
                 <li className="nav-item ">
-                  <Link
+                  <a
                     className="nav-link"
-                    to="/defi"
+                    href="https://app.zeroloss.org"
                     style={{ color: "white" }}
                   >
                     Launch App
-                  </Link>
+                  </a>
                 </li>
 
                 <li className="nav-item ">
