@@ -230,7 +230,7 @@ function Faq(props) {
                       ZLT Token can be bought, exchanged and stored in your
                       wallet. Buy:{" "}
                       <a
-                        href="https://zeroloss.org/defi.html"
+                        href="https://app.zeroloss.org"
                         target="_blank"
                         style={{ color: "gold" }}
                       >
@@ -261,7 +261,7 @@ function Faq(props) {
                             ZLT will be listed at TOP exchanges soon. check our
                             website or at{" "}
                             <a
-                              href="#"
+                              href="https://zeroloss.org"
                               target="_blank"
                               style={{ color: "gold" }}
                             >
@@ -498,12 +498,12 @@ function Faq(props) {
                                 instantly.
                                 <br />
                                 <br />
-                                Step 3. Buy ZLT on Pancakeswap
+                                Step 3. Buy ZLT on DODOEx
                                 <br />
                                 <br />
-                                Go to ZLT’s page on Pancakeswap
+                                Go to ZLT’s page on DODOEx
                                 <a
-                                  href="https://exchange.pancakeswap.finance/#/swap?outputCurrency=0xc1ed8d529f5fe85837349f7dd57715a3904a5f21"
+                                  href="https://app.dodoex.io/exchange/BUSD-DODO?network=bsc-mainnet"
                                   target="_blank"
                                 >
                                   <img src="images/pancake.png" alt="partner" />
