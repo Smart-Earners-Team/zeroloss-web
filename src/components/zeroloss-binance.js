@@ -225,7 +225,7 @@ function importAll(r) {
                 <div className="border--none bg-color--transparent card-hover--bg--alt-shadow mb-1 mx-sm-2 mx-xl-0 mb-md-4 p-3 jsElementFocus">
                   <span>
                     <a
-                      href="https://exchange.pancakeswap.finance/#/swap?outputCurrency=0xc1ed8d529f5fe85837349f7dd57715a3904a5f21"
+                      href="https://exchange.pancakeswap.finance"
                       target="_blank"
                     >
                       <img src={"images/pancake.png"} alt="partner" />
