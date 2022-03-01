@@ -72,7 +72,7 @@ const Idolaunchpad = () => {
               <div className="row flex-column-reverse flex-lg-row-reverse align-items-center text-center">
                 <div className="col-12 reveal">
                   <h2 className="mb-3 font-size--40 font-w--700">
-                    No fees, Low risk, No rug polls, only rewards
+                    No fees, Low risk, No rug pulls, only rewards
                   </h2>
 
                   <p className="mb-1 pb-2 px-lg-6">
@@ -209,7 +209,7 @@ const Idolaunchpad = () => {
                         </li>
                         <li>
                           <a
-                            href="https://exchange.pancakeswap.finance/#/swap?outputCurrency=0xc1ed8d529f5fe85837349f7dd57715a3904a5f21"
+                            href="https://app.zeroloss.org"
                             className="color--yellow"
                           >
                             Buy
@@ -226,7 +226,7 @@ const Idolaunchpad = () => {
                       <ul className="icon-group icon--2x justify-content-center mb-0">
                         <li className="p-2">
                           <a
-                            href="https://t.me/+ea-5HwPvFRcyM2Q0"
+                            href="https://t.me/zerolossofficial"
                             target="_blank"
                             className="color--white"
                           >
@@ -244,7 +244,7 @@ const Idolaunchpad = () => {
                         </li>
                         <li className="p-2">
                           <a
-                            href="https://www.reddit.com/r/thezerolosscommunity/"
+                            href="https://"
                             target="_blank"
                             className="color--white"
                           >
