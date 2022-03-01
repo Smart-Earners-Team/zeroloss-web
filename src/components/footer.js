@@ -59,7 +59,7 @@ function Footer(props) {
                   </li>
                   <li className="p-2">
                     <a
-                      href="https://www.reddit.com/r/thezerolosscommunity/"
+                      href="https://www.reddit.com"
                       target="_blank"
                       className="color--white"
                     >
