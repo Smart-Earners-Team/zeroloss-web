@@ -91,7 +91,7 @@ function importAll(r) {
 
                 <a
                   className="t-icon box-shadow--5 rounded--05 m-1 btn-hover--primary"
-                  href="https://bscscan.com/token/0xc1ed8d529f5fe85837349f7dd57715a3904a5f21"
+                  href="https://www.bnbchain.world/en"
                   target="_blank"
                   style={{ border: "4px solid white" }}
                 >
