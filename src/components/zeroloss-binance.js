@@ -91,7 +91,7 @@ function importAll(r) {
 
                 <a
                   className="t-icon box-shadow--5 rounded--05 m-1 btn-hover--primary"
-                  href="https://bscscan.com/token/0xc1ed8d529f5fe85837349f7dd57715a3904a5f21"
+                  href="https://www.bnbchain.world/en"
                   target="_blank"
                   style={{ border: "4px solid white" }}
                 >
@@ -172,7 +172,7 @@ function importAll(r) {
                 }}
               >
                 <span className="btn__text d-flex justify-content-between">
-                  How add to wallet? GO! <i class="icon fa-arrowight"></i>
+                  How to add to wallet? GO! <i class="icon fa-arrowight"></i>
                   <i class="fas fa-arrow-right"></i>
                   {/* <i className="icon icon-arrow-right font-size--20"></i> */}
                 </span>
@@ -225,7 +225,7 @@ function importAll(r) {
                 <div className="border--none bg-color--transparent card-hover--bg--alt-shadow mb-1 mx-sm-2 mx-xl-0 mb-md-4 p-3 jsElementFocus">
                   <span>
                     <a
-                      href="https://exchange.pancakeswap.finance/#/swap?outputCurrency=0xc1ed8d529f5fe85837349f7dd57715a3904a5f21"
+                      href="https://exchange.pancakeswap.finance"
                       target="_blank"
                     >
                       <img src={"images/pancake.png"} alt="partner" />
