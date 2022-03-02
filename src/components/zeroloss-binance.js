@@ -235,8 +235,8 @@ function importAll(r) {
 
                 <div className="border--none bg-color--transparent card-hover--bg--alt-shadow mb-1 mx-sm-2 mx-sm-1 mx-xl-0 mb-md-4 p-3 jsElementFocus">
                   <span>
-                    <a href="https://www.bakeryswap.org/" target="_blank">
-                      <img src={"images/bakeryswap.png"} alt="partner" />
+                    <a href="https://dodoex.io/" target="_blank">
+                      <img src={"images/dodo-logo.png"} alt="partner" />
                     </a>
                   </span>
                 </div>
