@@ -70,7 +70,7 @@ function Header() {
                 </span>
               </h1>
               <p className="hero__description font-size--20 mb-3 mb-lg-5 pr-xl-10">
-                DeFi 3.0 dApp and LAUNCHPAD POWERED BY ZEROLOSS
+                DeFi 3.0 dApp | ZeroVerse POWERED BY ZLT
               </p>
               <div>
                 <p
@@ -80,8 +80,8 @@ function Header() {
                     fontZize: "20px",
                   }}
                 >
-                  Zeroloss is the utility, $ZLT is the currency with PMMe
-                  algorithm to Grow your crypto portfolio
+                  Zeroloss is the utility, $ZLT is the currency with PMM
+                  algorithm. 
                 </p>
               </div>
               <br />
@@ -105,9 +105,8 @@ function Header() {
                 </span>
                 <p className="h4-font">RUG-PROOF AND EQUITABLE</p>
                 <p className="h8-font">
-                  Projects launching on ZEROLOSSPAD will have KYC checks to give
-                  investors the confidence and give the projects “low risk”
-                  badge.
+                  Zeroloss is built with PMM reducing any risk of Impermanent Loss, Zero Taxation
+                  and Low slippage 1% step into ZeroVerse with confidence badge.
                 </p>
               </div>
 
@@ -117,7 +116,8 @@ function Header() {
                 </span>
                 <p className="h4-font">LOCKED LIQUIDITY</p>
                 <p className="h8-font">
-                  IZO projects will lock more than 60% of their liquidity with a
+                  ZLT Tokens will be locked in to mint ZeroVerse.
+                  60% of the total supply of ZLT will be locked as LP with a
                   verified trusted third party for a time period.
                 </p>
               </div>
@@ -128,9 +128,8 @@ function Header() {
                 </span>
                 <p className="h4-font">INTEROPERABLE</p>
                 <p className="h8-font">
-                  Get very early-access to private and public pre-sales of safe
-                  high-end and quality projects on Binance Smart Chain, with a
-                  reasonable sum of capital.
+                  POS utility platform with PMM algorithm and POE as the core interoperability model,
+                  SmartTrade, Pools, Stake, Combiner Harvest Mining, NFT with ZLT
                 </p>
               </div>
 
@@ -140,7 +139,7 @@ function Header() {
                 </span>
                 <p className="h4-font">ZEROLOSSPAD</p>
                 <p className="h8-font">
-                  ZLT token HOLDERS comes first and have access to IZO pools and
+                  ZLT token HOLDERS comes first and have access to IZO pools, Lands in ZeroVerse and
                   the opportunity to get into new projects equitably without
                   whales and bots eating up the allocation.
                 </p>

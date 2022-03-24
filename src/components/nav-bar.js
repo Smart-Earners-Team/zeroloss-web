@@ -100,7 +100,7 @@ function NavBar(props) {
                 <li className="nav-item ">
                   <a
                     className="nav-link"
-                    href="https://zeroloss-front.herokuapp.com/rugchecker"
+                    href="https://scamsniper.net"
                     style={{ color: "white" }}
                   >
                     Rug Checker
