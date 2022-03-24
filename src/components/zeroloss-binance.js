@@ -42,22 +42,26 @@ function importAll(r) {
                   fontSize: "20px",
                 }}
               >
-                TRUSTED dAPPs on BINANCE SMART CHAIN
+                Trusted Partners
               </p>
 
               <div className="icon-fill--wide text-center d-lg-flex justify-content-lg-center flex-wrap reveal">
                 <a
                   className="t-icon box-shadow--5 rounded--05 m-1 btn-hover--primary"
-                  href="https://poocoin.app"
+                  href="https://dodoex.io/"
                   target="_blank"
                   style={{ border: "4px solid white" }}
                 >
-                  <img src={"images/poocoin1.jpg"} alt="" />
+                  <img
+                    src={"images/dodo-logo.png"}
+                    alt="partner"
+                    width={"50px"}
+                  />
                   <span
                     className="t-icon__brand-name h5-font font-w--500 text-color--700"
                     style={{ color: "white" }}
                   >
-                    Poocoin Chart
+                    Dodoex
                   </span>
                 </a>
 
@@ -76,16 +80,16 @@ function importAll(r) {
 
                 <a
                   className="t-icon box-shadow--5 rounded--05 m-1 btn-hover--primary"
-                  href="https://apeboard.finance"
+                  href="https://scamsniper.net/"
                   target="_blank"
                   style={{ backgroundColor: "gold" }}
                 >
-                  <img src={"images/Apeboard.jpg"} alt="" />
+                  <img src={"images/scamsniper.png"} alt="" width={"50px"}/>
                   <span
                     className="t-icon__brand-name h5-font font-w--500"
                     style={{ color: "black" }}
                   >
-                    Apeboard Portfolio Check
+                    ScamSniper
                   </span>
                 </a>
 
@@ -93,8 +97,7 @@ function importAll(r) {
                   className="t-icon box-shadow--5 rounded--05 m-1 btn-hover--primary"
                   href="https://www.bnbchain.world/en"
                   target="_blank"
-                  style={{ border: "4px solid white" }}
-                >
+                  style={{ border: "4px solid white" }}>
                   <span className="t-icon__brand-icon h4-font color--primary">
                     <i className="cf cf-bnb color--yellow"></i>
                   </span>
