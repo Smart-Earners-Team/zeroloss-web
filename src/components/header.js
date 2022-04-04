@@ -80,7 +80,7 @@ function Header() {
                     fontZize: "20px",
                   }}
                 >
-                  Zeroloss is the utility, $ZLT is the currency with PMM
+                  Zeroloss is the utility, ZLT is the currency with PMM
                   algorithm. 
                 </p>
               </div>
