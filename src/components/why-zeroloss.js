@@ -130,7 +130,7 @@ function WhyChooseUs() {
                 <p className="font-size--16">
                   {" "}
                   The core interoperability Algorithm model of ZEROLOSS <br />
-                  As users stake their crypto assets the POE algorithm
+                  As users stake there crypto assets the POE algorithm
                   redistributes profits and a drip pool is constantly grown
                 </p>
               </div>
