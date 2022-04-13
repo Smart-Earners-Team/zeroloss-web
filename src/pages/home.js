@@ -5,6 +5,7 @@ import Roadmap from '../components/roadmap';
 import Header from '../components/header';
 import WhyChooseUs from '../components/why-zeroloss';
 import ZerolossBinance from '../components/zeroloss-binance';
+import InfoChart from '../components/infoChart';
 
 
 function Home() {
@@ -17,6 +18,7 @@ function Home() {
         <NavBar />
         <Header />
         <WhyChooseUs />
+        <InfoChart />
         <ZerolossBinance />
         <Roadmap />
         <Footer />

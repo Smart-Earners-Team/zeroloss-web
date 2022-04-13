@@ -77,7 +77,7 @@ function Roadmap(props) {
                   </div>
                 </div>
 
-                <div className="container mt-5">
+                {/*<div className="container mt-5">
                   <div className="row">
                     <div className="col-12 col-md-10 mx-auto reveal">
                       <div className="testimonials__pattern background-holder background--auto background--top--left opacity--40">
@@ -98,14 +98,14 @@ function Roadmap(props) {
                               ></i>
                             </span>
                             <div>
-                              <blockquote className="blockquote mb-3">
+                               <blockquote className="blockquote mb-3">
                                 The ZEROLOSS platform is focused on exposing the
                                 unbanked population to the use of cryptocurrency
                                 in Defi through our POE Algorithm, and to switch
                                 from fiat-digital-fiat funds. Holders of
                                 zeroloss token ZLT earn value interoperably on
                                 every transaction.
-                              </blockquote>
+                              </blockquote> 
                               <div className="d-flex align-items-center">
                                 <div className="d-flex flex-column">
                                   <span className="client-name font-size--17 font-w--600">
@@ -122,7 +122,7 @@ function Roadmap(props) {
                       </div>
                     </div>
                   </div>
-                </div>
+                </div>*/}
 
                 <div className="container mt-5">
                   <div className="row">
@@ -219,10 +219,10 @@ function Roadmap(props) {
       <section className="space--bottom bg-color--primary-light--1 ">
         <div className="container">
           <div className="row justify-content-center reveal">
-            <div className="col-12 col-lg-5 mb-2">
+            {/*<div className="col-12 col-lg-5 mb-2">
               <div className="card card--double card-hover--shadow">
                 <div className="card-body px-3 py-4">
-                  <a
+                   <a
                     href="https://twitter.com/Zeroloss_defi"
                     className="text-color--700 text-hover--transparent font-w--500 h5-font mb-2"
                   >
@@ -235,7 +235,7 @@ function Roadmap(props) {
                     href="https://twitter.com/Zeroloss_defi"
                     className="btn btn-size--md btn--transparent"
                     style={{ color: "gold" }}
-                  >
+                  > 
                     <span className="btn__text p-0">
                       {" "}
                       Read more <i className="icon icon-arrow-right"></i>
@@ -243,7 +243,7 @@ function Roadmap(props) {
                   </a>
                 </div>
               </div>
-            </div>
+            </div>*/}
 
             <div className="col-12 col-lg-5 mb-2">
               <div className="card card--double bg-white card-hover--shadow">
