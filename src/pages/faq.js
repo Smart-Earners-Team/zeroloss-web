@@ -98,9 +98,9 @@ function Faq(props) {
                             A disruptive Defi3.0 dApp.
                             <br />
                             <br />
-                            ZLT is the utility Token of ZEROLOSS digital
-                            platform and dApp that carries the store of value
-                            and interoperability
+                            ZLT is the Token of ZEROLOSS DeFi
+                            platform and Utility dApp that carries the store of value
+                            interoperability using POE and PMM algorithm
                           </p>
                         </div>
                       </div>
@@ -155,9 +155,9 @@ function Faq(props) {
                               Twitter Page
                             </a>
                             <br />
-                            Follow our official Reddit:{" "}
+                            Follow our official Discord:{" "}
                             <a
-                              href="https://www.reddit.com/user/ZeroLoss"
+                              href="https://discord.gg/brUDkCb72M"
                               target="_blank"
                               style={{ color: "gold" }}
                             >
@@ -201,17 +201,17 @@ function Faq(props) {
                             ZEROLOSS Light Paper
                             <br />
                             <br />
-                            PMM Algorithm is the core interoperability model of
+                            POE and PMM Algorithm is the core interoperability model of
                             ZEROLOSS!
                             <br />
-                            ZLT is the utility Token of ZEROLOSS digital
-                            blockchain ledger that carries the store of value
-                            and interoperability,
+                            ZLT is the Token of ZEROLOSS DeFi 
+                            platform that carries the store of value
+                            and interoperability.
                           </p>
                           <br />
                           <br />
                           <a
-                            href="https://drive.google.com/file/d/1k9ONuohtVZF-g1uhiQd5q1VyEWQM-SYZ/view?usp=sharing"
+                            href="https://drive.google.com/file/d/1KvACbgj-2-ZrsM8v_UHj7BuV__OjoewV/view?usp=drivesdk"
                             style={{ color: "gold" }}
                           >
                             {" "}
@@ -230,7 +230,7 @@ function Faq(props) {
                       ZLT Token can be bought, exchanged and stored in your
                       wallet. Buy:{" "}
                       <a
-                        href="https://app.zeroloss.org"
+                        href="https://app.dodoex.io/?network=bsc-mainnet&from=BNB&to=ZLT&forced=true&ivc=0x88813f879147Ed09CC5c1Cd61ED8DAA349D7D2ab"
                         target="_blank"
                         style={{ color: "gold" }}
                       >
@@ -269,15 +269,15 @@ function Faq(props) {
                             </a>
                             ,{" "}
                             <a
-                              href="#"
+                              href="https://coinhunters.cc/tokens/Zeroloss"
                               target="_blank"
                               style={{ color: "gold" }}
                             >
-                              COINLIST
+                              COINSNIPER
                             </a>{" "}
                             or{" "}
                             <a
-                              href="#"
+                              href="https://coinsniper.net/coin/28079"
                               target="_blank"
                               style={{ color: "gold" }}
                             >
@@ -309,13 +309,7 @@ function Faq(props) {
                       >
                         <div className="card-body bg-white pl-3">
                           <p className="text-dark">
-                            <b>Binance Smart Chain:</b> Click{" "}
-                            <a
-                              href="https://bscscan.com/token/"
-                              target="_blank"
-                              style={{ color: "gold" }}
-                            >
-                              here
+                            <b>Binance Smart Chain: 0x05D8762946fA7620b263E1e77003927addf5f7E6 here
                             </a>
                           </p>
                           <p className="text-dark">
