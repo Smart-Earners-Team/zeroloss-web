@@ -202,7 +202,7 @@ function Faq(props) {
                             <br />
                             <br />
                             POE and PMM Algorithm is the core interoperability model of
-                            ZEROLOSS!
+                            ZEROLOSS
                             <br />
                             ZLT is the Token of ZEROLOSS DeFi 
                             platform that carries the store of value
