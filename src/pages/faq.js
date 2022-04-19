@@ -310,7 +310,7 @@ function Faq(props) {
                         <div className="card-body bg-white pl-3">
                           <p className="text-dark">
                             <b>Binance Smart Chain: 0x05D8762946fA7620b263E1e77003927addf5f7E6 here
-                            </a>
+                            </b>
                           </p>
                           <p className="text-dark">
                             <b>Polygon Network Soon</b>{" "}
