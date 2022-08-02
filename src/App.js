@@ -4,6 +4,7 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import initFontAwesome from "./components/fontAwesome";
 
 import styled, { ThemeProvider } from "styled-components";
+import Launchapp from "./pages/launchapp";
 // import { lightTheme, darkTheme, GlobalStyles } from "./components/themes";
 
 
@@ -46,7 +47,7 @@ function App() {
                   <Route path="/" element={<Home />} />
                   <Route path="/defi" element={<Defi />} />
                   <Route path="/zerolosspad" element={<Idolaunchpad />} />
-                  {/* <Route path="/rugchecker" element={<Rugchecker />} /> */}
+                  <Route path="/launchapp" element={<Launchapp />} />
                   <Route path="/faq" element={<Faq />}></Route>
                   <Route path="/buy" element={<Idolaunchpad />} />
                 </Routes>
