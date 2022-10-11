@@ -131,13 +131,13 @@ function NavBar(props) {
           </div>
           <div className="mr-5 mr-lg-0 ml-lg-2">
             <a
-              href="https://app.dodoex.io/?outputCurrency=0x67ee3Cb086F8a16f34beE3ca72FAD36F7Db929e2&from=ZLT&to=BUSD"
+              href="https://www.dextools.io/app/bnb/pair-explorer/0xcdee9978ac7549c755b58849ed7e1648efac6ca7"
               className="btn btn-size--sm btn-border btn-hover--danger color--white"
             >
               <span className="btn__text font-w--500">Buy</span>
             </a>
             <a
-              href="https://app.zeroloss.org"
+              href="https://app.zeroloss.finance"
               target="_blank"
               className="btn btn-size--sm btn-hover--splash"
               style={{ backgroundColor: "gold" }}
