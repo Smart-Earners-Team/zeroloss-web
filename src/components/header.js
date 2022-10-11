@@ -54,7 +54,7 @@ function Header() {
                   }}
                   onInit={(typewriter) => {
                     typewriter
-                      .typeString("Best DeFi experience Guaranteed!!")
+                      .typeString("Best Web3 experience Guaranteed!!")
                       .pauseFor(1000)
                       .deleteAll()
                       .typeString(
@@ -70,7 +70,7 @@ function Header() {
                 </span>
               </h1>
               <p className="hero__description font-size--20 mb-3 mb-lg-5 pr-xl-10">
-                DeFi 3.0 dApp | ZeroVerse POWERED BY ZLT
+                Web3 and DeFi utility DEX POWERED BY ZLT
               </p>
               <div>
                 <p
@@ -87,7 +87,7 @@ function Header() {
               <br />
               <br />
               <a
-                href="https://app.dodoex.io/?outputCurrency=0x67ee3Cb086F8a16f34beE3ca72FAD36F7Db929e2&from=ZLT&to=BUSD"
+                href="https://www.dextools.io/app/bnb/pair-explorer/0xcdee9978ac7549c755b58849ed7e1648efac6ca7"
                 className="btn btn-size--sm btn-border btn-hover--splash"
                 style={{ color: "gold" }}
               >
