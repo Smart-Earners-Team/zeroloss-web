@@ -19,20 +19,7 @@ function importAll(r) {
         <div className="container">
           <div className="row">
             <div className="col-12 col-lg-10 mx-auto text-center reveal">
-              <h2
-                className="mb-3 font-size--20 font-w--100"
-                style={{ color: "white", fontWeight: "light" }}
-              >
-                The Binance Smart Chain as a scaling solution to ethereum is a
-                great tool for crypto users and investors to get lower
-                transaction fees and faster speeds. However, the incessant exit
-                scams and rug pools are currently deterring the progressive
-                growth of DeFi on Binance Smart Chain. ZEROLOSS was created with
-                a clear focus centered on solving these problems and bring a
-                sense of security, to Binance Smart Chain with ZEROLOSS rug
-                checker. We're building a platform that will ensure the safety
-                of all user funds, for both projects and investors.
-              </h2>
+              
 
               <p
                 className="mb-1 pb-2 px-lg-6"
@@ -42,7 +29,7 @@ function importAll(r) {
                   fontSize: "20px",
                 }}
               >
-                Trusted Partners
+                Buy, Sell and Exchange ZLT
               </p>
 
               <div className="icon-fill--wide text-center d-lg-flex justify-content-lg-center flex-wrap reveal">
@@ -67,7 +54,7 @@ function importAll(r) {
 
                 <a
                   className="t-icon box-shadow--5 rounded--05 m-1 btn-hover--primary"
-                  href="https://cbridge.celer.network/"
+                  href="https://www.dextools.io/app/bnb/pair-explorer/0xcdee9978ac7549c755b58849ed7e1648efac6ca7"
                   target="_blank"
                   style={{ backgroundColor: "gold" }}
                 >
@@ -75,7 +62,9 @@ function importAll(r) {
                   <span
                     className="t-icon__brand-name h5-font font-w--500"
                     style={{ color: "black" }}
-                  ></span>
+                  >
+                    DexTools
+                  </span>
                 </a>
 
                 <a
@@ -146,21 +135,6 @@ function importAll(r) {
                   </a>
                 </span>
                 <span className="m-2 m-lg-4">
-                  <a href="https://safepal.io/" target="_blank">
-                    <img src={"images/safe.png"} height="50" alt="logo" />
-                  </a>
-                </span>
-                <span className="m-2 m-lg-4">
-                  <a href="https://token.im/" target="_blank">
-                    <img src={"images/imtoken.png"} height="50" alt="logo" />
-                  </a>
-                </span>
-                <span className="m-2 m-lg-4">
-                  <a href="https://www.coinomi.com/" target="_blank">
-                    <img src={"images/coinomi.png"} height="50" alt="logo" />
-                  </a>
-                </span>
-                <span className="m-2 m-lg-4">
                   <a href="https://www.ledger.com/" target="_blank">
                     <img src={"images/ledger.png"} height="50" alt="logo" />
                   </a>
@@ -213,11 +187,11 @@ function importAll(r) {
                 className="mb-2 h3-font font-w--700"
                 style={{ color: "white" }}
               >
-                Top BEP20 DEX Platforms
+                As SEEN ON TOP INDUSTRY BRANDS
               </h2>
               <p className="opacity--80">
                 <b />
-                Best DEXs for token exchange on BSC
+                Zeroloss partners with worlds leading companys
               </p>
             </div>
 
@@ -268,7 +242,7 @@ function importAll(r) {
                       and more exchanges
                     </p>
                     <button
-                      href="https://app.zeroloss.org"
+                      href="https://www.dextools.io/app/bnb/pair-explorer/0xcdee9978ac7549c755b58849ed7e1648efac6ca7"
                       className="btn btn-size--sm btn-border btn-hover--splash color--green"
                     >
                       <span className="btn__text font-w--700">Buy ZLT</span>
